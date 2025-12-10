@@ -1,0 +1,17 @@
+{
+    "name": "astrical-dev",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "astrical dev",
+        "build": "astrical build"
+    },
+    "workspaces": [
+        "src/cli",
+        "src/core",
+        "src/modules/*"
+    ],
+    "devDependencies": {
+        "@astrical/cli": "file:./src/cli"
+    }
+}
