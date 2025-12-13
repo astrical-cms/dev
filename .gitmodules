@@ -4,3 +4,6 @@
 [submodule "src/core"]
 	path = src/core
 	url = git@github.com:nexical/astrical.git
+[submodule "src/cli-core"]
+	path = src/cli-core
+	url = git@github.com:nexical/cli-core.git
