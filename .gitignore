@@ -6,5 +6,5 @@ dist
 test
 
 # Site building files
-_site
+site
 
