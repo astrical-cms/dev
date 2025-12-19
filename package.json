@@ -1,10 +1,13 @@
 {
     "name": "astrical-dev",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "private": true,
     "scripts": {
         "dev": "astrical dev",
-        "build": "astrical build"
+        "build": "astrical build",
+        "validate": "astrical run validate",
+        "check": "astrical run check",
+        "fix": "astrical run fix"
     },
     "workspaces": [
         "src/cli",
